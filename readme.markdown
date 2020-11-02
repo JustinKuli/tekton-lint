@@ -210,6 +210,7 @@ for (const problem of problems) {
 - Missing `TriggerBinding` parameter values
 - Usage of deprecated `Condition` instead of `WhenExpression`
 - Usage of deprecated resources (resources marked with `tekton.dev/deprecated` label)
+- Missing `hashbang` line from a `Step`s `script`
 
 ### Configuring `tekton-lint`
 
